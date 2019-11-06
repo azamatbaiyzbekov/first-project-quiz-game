@@ -1,0 +1,167 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    color: darkblue;
+    background-color: #bccbde;
+    
+}
+
+header {
+    width: 100%;
+    display: inline-block;
+    height: 100px;
+    background-color:lightblue;
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+    padding-left: 1.5%;
+  }
+
+h2 {
+    width: 100%;
+    display: block;
+    height: 100%;
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+    padding-left: 1.5%;
+}
+
+#players {
+    justify-content: center;
+}
+
+.start-button {
+    display: block;
+    margin: 0 auto 30px;
+    font-size: 1rem;
+    padding: 1rem 0;
+    width: 8rem;
+    border: 0.1rem solid blue;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+ .choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 50%;
+    font-size: 1.5rem;
+    border: 0.1rem solid rgb(86, 165, 235, 0.25);
+    background-color: white;
+} 
+
+.choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: lightblue;
+    color: white;
+}
+
+.choice-text {
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 2rem;
+} 
+
+.correct {
+    background-color: green;
+}
+
+.incorrect {
+    background-color: red;
+}
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+   
+}
+
+/* img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     */
+    
+/* } */
+
+body {
+	width: 100wh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+
+/* /https://codepen.io/P1N2O/pen/pyBNzX.//https://codepen.io/P1N2O/pen/pyBNzX./ */
+
+
+
